@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    max-width: 400px;
+    background: hsl(0, 0%, 100%);
+    padding: 24px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+    text-align: left;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.images {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card_dop {
+    background: hsl(47, 88%, 63%);
+    max-width: 85px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.author {
+    max-width: 30px;
+}
+
+.date, .title, .text, .name {
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+
+
+.date, .name {
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+}
+
+.date {
+    font-weight: 540;
+}
+
+.name {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: hsl(0, 0%, 7%);
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 42%);
+}
+
+.category {
+    font-size: 16px;
+    font-weight: bold;
+    color: hsl(0, 0%, 7%);
+}
